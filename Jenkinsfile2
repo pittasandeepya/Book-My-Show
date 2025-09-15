@@ -11,8 +11,8 @@ pipeline {
     environment {
         SCANNER_HOME = tool 'sonar-scanner'
         DOCKER_IMAGE = 'sandypitta/bms:latest'
-        EKS_CLUSTER_NAME = 'likith-eks'
-        AWS_REGION = 'us-west-2'
+        EKS_CLUSTER_NAME = 'sandy-eks'
+        AWS_REGION = 'us-east-1'
     }
 
     stages {
